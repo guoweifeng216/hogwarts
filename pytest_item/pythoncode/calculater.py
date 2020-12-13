@@ -17,5 +17,5 @@ class Calculator():
     def multi(self, a, b):
         return a*b
 
-    def devide(self, a, b):
-        return a//b
+    def devise(self, a, b):
+        return a / b
