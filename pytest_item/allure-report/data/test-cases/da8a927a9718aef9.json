@@ -1,0 +1,95 @@
+{
+  "uid" : "da8a927a9718aef9",
+  "name" : "check_sub[mius]",
+  "fullName" : "check_calculator.CheckCalc#check_sub",
+  "historyId" : "78aa749c3d2134aa3ed87d6f035a344a",
+  "time" : {
+    "start" : 1608130039172,
+    "stop" : 1608130039172,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "myfixture",
+    "time" : {
+      "start" : 1608130039152,
+      "stop" : 1608130039152,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "myfixture::0",
+    "time" : {
+      "start" : 1608130039232,
+      "stop" : 1608130039232,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "suite",
+    "value" : "check_calculator"
+  }, {
+    "name" : "subSuite",
+    "value" : "CheckCalc"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-KQ2FM3U7"
+  }, {
+    "name" : "thread",
+    "value" : "13532-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "check_calculator"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "-1"
+  }, {
+    "name" : "b",
+    "value" : "9"
+  }, {
+    "name" : "expect",
+    "value" : "-10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=2)" ]
+  },
+  "source" : "da8a927a9718aef9.json",
+  "parameterValues" : [ "-1", "9", "-10" ]
+}

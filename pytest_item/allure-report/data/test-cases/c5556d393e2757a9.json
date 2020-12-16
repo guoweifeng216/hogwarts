@@ -1,0 +1,95 @@
+{
+  "uid" : "c5556d393e2757a9",
+  "name" : "check_sub[bigint]",
+  "fullName" : "check_calculator.CheckCalc#check_sub",
+  "historyId" : "be716c961e0f95486eb7cf00feccb9fe",
+  "time" : {
+    "start" : 1608130039179,
+    "stop" : 1608130039180,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "myfixture",
+    "time" : {
+      "start" : 1608130039152,
+      "stop" : 1608130039152,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "myfixture::0",
+    "time" : {
+      "start" : 1608130039232,
+      "stop" : 1608130039232,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "suite",
+    "value" : "check_calculator"
+  }, {
+    "name" : "subSuite",
+    "value" : "CheckCalc"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-KQ2FM3U7"
+  }, {
+    "name" : "thread",
+    "value" : "13532-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "check_calculator"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "900"
+  }, {
+    "name" : "b",
+    "value" : "300"
+  }, {
+    "name" : "expect",
+    "value" : "600"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=2)" ]
+  },
+  "source" : "c5556d393e2757a9.json",
+  "parameterValues" : [ "900", "300", "600" ]
+}

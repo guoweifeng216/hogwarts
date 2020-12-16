@@ -1,0 +1,95 @@
+{
+  "uid" : "12844e6129d23aa0",
+  "name" : "check_multi[bigint]",
+  "fullName" : "check_calculator.CheckCalc#check_multi",
+  "historyId" : "dd53947669a68c1e92389ab17104aa62",
+  "time" : {
+    "start" : 1608130039196,
+    "stop" : 1608130039197,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "myfixture",
+    "time" : {
+      "start" : 1608130039152,
+      "stop" : 1608130039152,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "myfixture::0",
+    "time" : {
+      "start" : 1608130039232,
+      "stop" : 1608130039232,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "suite",
+    "value" : "check_calculator"
+  }, {
+    "name" : "subSuite",
+    "value" : "CheckCalc"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-KQ2FM3U7"
+  }, {
+    "name" : "thread",
+    "value" : "13532-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "check_calculator"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "100"
+  }, {
+    "name" : "b",
+    "value" : "200"
+  }, {
+    "name" : "expect",
+    "value" : "20000"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=3)" ]
+  },
+  "source" : "12844e6129d23aa0.json",
+  "parameterValues" : [ "100", "200", "20000" ]
+}
